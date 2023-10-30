@@ -98,3 +98,5 @@ Add the "coin_id" column in the hover_cols parameter to identify the cryptocurre
 Answer the following question:
 
 What is the impact of using fewer features to cluster the data using K-Means?
+
+*Technologies used: Microsoft Visual Studio Code. Languages: Python
