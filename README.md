@@ -11,7 +11,7 @@ from the original DataFrame as the index for the new DataFrame.
 
 - The first five rows of the scaled DataFrame appeared as follows:
 
-<img src= "https://github.com/IRTakan/CryptoClustering/blob/main/images/scaled_DataFrame.png" >
+<img src= "https://github.com/IRTakan/CryptoClustering/blob/main/images/scaled_DataFrame.png" height = 250 width= 1000 >
 
 -- Find the Best Value for k Using the Original Scaled DataFrame --
 
@@ -61,7 +61,7 @@ Use the following steps to cluster the cryptocurrencies for the best value for k
 
 - The first five rows of the PCA DataFrame appears as follows:
 
-<img src="https://github.com/IRTakan/CryptoClustering/blob/main/images/PCA_DataFrame.png">
+<img src="https://github.com/IRTakan/CryptoClustering/blob/main/images/PCA_DataFrame.png" height= 230 width=350>
 
 -- Find the Best Value for k Using the PCA Data --
 
