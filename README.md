@@ -4,28 +4,32 @@ In this challenge, I used my knowledge of Python and unsupervised learning to pr
 
 To complete this task I had to:
 
-- Prepare the Data
+-- Prepare the Data --
   
-Use the StandardScaler() module from scikit-learn to normalize the data from the CSV file. Create a DataFrame with the scaled data and set the "coin_id" index 
+- Use the StandardScaler() module from scikit-learn to normalize the data from the CSV file. Create a DataFrame with the scaled data and set the "coin_id" index 
 from the original DataFrame as the index for the new DataFrame.
 
-- Find the Best Value for k Using the Original Scaled DataFrame
+- The first five rows of the scaled DataFrame should appear as follows:
 
--Use the elbow method to find the best value for k using the following steps:
+<img src= "https://github.com/IRTakan/CryptoClustering/blob/main/images/scaled_DataFrame.png" >
 
-Create a list with the number of k values from 1 to 11.
+-- Find the Best Value for k Using the Original Scaled DataFrame --
 
-Create an empty list to store the inertia values.
+- Use the elbow method to find the best value for k using the following steps:
 
-Create a for loop to compute the inertia with each possible value of k.
+- Create a list with the number of k values from 1 to 11.
 
-Create a dictionary with the data to plot the elbow curve.
+- Create an empty list to store the inertia values.
 
-Plot a line chart with all the inertia values computed with the different values of k to visually identify the optimal value for k.
+- Create a for loop to compute the inertia with each possible value of k.
 
-Answer the following question in your notebook: What is the best value for k?
+- Create a dictionary with the data to plot the elbow curve.
 
-- Cluster Cryptocurrencies with K-means Using the Original Scaled Data
+- Plot a line chart with all the inertia values computed with the different values of k to visually identify the optimal value for k.
+
+- Answer the following question in your notebook: What is the best value for k?
+
+-- Cluster Cryptocurrencies with K-means Using the Original Scaled Data --
 
 -Use the following steps to cluster the cryptocurrencies for the best value for k on the original scaled data:
 
@@ -54,6 +58,10 @@ Retrieve the explained variance to determine how much information can be attribu
 What is the total explained variance of the three principal components?
 
 Create a new DataFrame with the PCA data and set the "coin_id" index from the original DataFrame as the index for the new DataFrame.
+
+The first five rows of the PCA DataFrame should appear as follows:
+
+<img src="https://github.com/IRTakan/CryptoClustering/blob/main/images/PCA_DataFrame.png">
 
 - Find the Best Value for k Using the PCA Data
 
